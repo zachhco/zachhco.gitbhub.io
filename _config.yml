@@ -50,7 +50,11 @@ url: http://zachhco.github.io
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
+<<<<<<< HEAD
 baseurl: /zc-jek
+=======
+baseurl: "zc_jek"
+>>>>>>> 40df2c33b8723d2aeb8bbcb26191d81125d36f1b
 
 #
 # !! You don't need to change any of the configuration flags below !!
