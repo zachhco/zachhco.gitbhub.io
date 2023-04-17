@@ -12,7 +12,9 @@ permalink: /work/
 
 
 # Car Price Determinants Econometrics Project (2021)
-PDF HERE
+[PDF HERE]({{ site.baseurl }}/assets/ols_car.pdf)
+
+
 
 <span style="color:#408C59">Abstract: </span>
 This is a project based on a OLS regression built for Economectrics (ECON125) at Pitzer College. This research seeks to assess what factors are significant in determining the price of a sports car; Does top speed matter more than 0-60? Are there preferences for different aspiration types? The data covers 62 different sports cars and all relevant explanatory variables for each.
@@ -26,7 +28,7 @@ CODE HERE
 This is based off of the Car Price Deterninants project using an OLS regression to make predictions. Instead of using OLS, however, this implementation ususes a Random Forest Model with cross validatoin to predict car prices. Due to its ability to create predictions using 100% of the data as testing and calidation through cross validatoin, this modeling tenchinque has high potential. The prices this model predicts are qualitativley closer to what I would expect. 
 
 # Developmental Aid Research Project
-RESEARCH PROPOSAL HERE
+[RESEARCH PROPOSAL HERE]({{ site.baseurl }}/assets/Research Proposal for Kolisi Foundation ISP.pdf)
 
 RESEARCH PAPER HERE
 
