@@ -3,14 +3,14 @@ layout: page
 permalink: /about/
 ---
 # <span style="color:purple">About</span>
-<span style="color:grey"> *Here you can find some information about myself aswell as LINKS to sites and platforms I like* 
+<span style="color:grey"> *Here you can find some information about myself* 
 </span>
 
 Im undergraduate student studying economics and data science. I'm creating this page so I can get some practice with web design. I'd also like to document some of my experinces while on study abroad.
 
 ## <span style="color:purple">More Information</span>
 
-I love bikes, cars, tennis, skis, the outdoors, and anythign that goes fast!
+I love bikes, cars, tennis, skis, the outdoors, and anything that goes fast!
 
 <div class="row">
   <div class="column">
@@ -48,7 +48,7 @@ I love bikes, cars, tennis, skis, the outdoors, and anythign that goes fast!
   </div>
 </div>
 
-# <span style="color:purple">Goals & Intentions</span>
+## <span style="color:purple">Contact</span>
 
 [zrocohen@gmail.com](mailto:email@domain.com)
 

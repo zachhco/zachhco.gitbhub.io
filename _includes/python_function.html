@@ -1,0 +1,225 @@
+{% highlight python %}
+#milestone.py
+# Zach Cohen
+
+#Librarys for OLS
+from os import X_OK
+from re import T
+from sys import stderr
+from tkinter import X
+import scipy
+import numpy as np 
+from scipy import stats
+from scipy import interpolate 
+import pandas as pd 
+from sklearn import preprocessing
+from matplotlib import pyplot as plt 
+import statsmodels.api as sm 
+from sklearn.covariance import MinCovDet
+import math
+import time
+
+#Librarys for RandomForestRegressor
+import pandas as pd
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.impute import SimpleImputer
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error
+from sklearn.preprocessing import OrdinalEncoder
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import cross_val_score
+from sklearn.ensemble import RandomForestClassifier
+
+
+#read in the data
+df = data = pd.read_csv('Book3.csv')
+
+#Independent variables
+X = df.drop('lnprice', axis = 1)
+
+#seperate the predicting attriubut into Y for model training
+y = df.lnprice
+
+#split data
+x_test, x_predict, y_test, y_predict = train_test_split(X, y)
+
+# FITTING THE MODEL USING A PIPELINE
+# Preprocessing for numerical data
+numerical_transformer = SimpleImputer(strategy='constant')
+
+# Preprocessing for categorical data
+categorical_transformer = Pipeline(steps=[
+    ('imputer', SimpleImputer(strategy='most_frequent')),
+    ('onehot', OneHotEncoder(handle_unknown='ignore'))
+])
+
+numerical_cols = ['hp2', 'speed', 'weight', 'year', 'acc', 'hp']
+categorical_cols = ['seat', 'limit', 'top', 'rwd', 'na', 'tt', 'ttt', 'hyb']
+
+# Bundle preprocessing for numerical and categorical data
+#preprocessor = ColumnTransformer(
+    #transformers=[
+       # ('num', numerical_transformer, numerical_cols),
+       # ('cat', categorical_transformer, categorical_cols)
+   # ])
+
+mod = RandomForestRegressor(n_estimators=100, random_state=0)
+
+# Bundle preprocessing and modeling code in a pipeline
+my_pipeline = Pipeline(steps=[
+                              ('model', mod)
+                             ])
+
+# Preprocessing of training data, fit model 
+my_pipeline.fit(x_test, y_test)
+
+# Preprocessing of validation data, get predictions
+preds = my_pipeline.predict(x_predict)
+
+# Multiply by -1 since sklearn calculates *negative* MAE
+scores = -1 * cross_val_score(my_pipeline, X, y,
+                              cv=5,
+                              scoring='neg_mean_absolute_error')
+
+#new_pipe = RandomForestClassifier(n_estimators=100)
+#accuracy = cross_val_score(new_pipe, X, y,
+                           #cv = 5,
+                           #scoring='accuracy')
+
+print("MAE scores:\n", scores)
+#print("Accuracy:\n", accuracy)
+
+print("Average MAE score (across experiments):")
+print(scores.mean())
+#print("This model is right about ", print(accuracy.mean()), "percent of the time")
+
+# Evaluate the model
+#score = mean_absolute_error(y_predict, preds)
+#print('MAE:', score)
+
+
+###
+####### FUNCTIONS ########
+###
+
+# Default function, takes the average values from the data and spits out a number!
+def pr(hp=667, seat=2, top=.26, limit=.31, rwd=.63, year=2019, acc=3.0, na=.29, 
+tt=.63, ttt=.03, hyb=.04, speed=202, weight=1581, hp2=477146):
+    """ takes input values for all dependent vairbales and produces an output of a 
+        cars predicted price. the default values are the mean values for all of the 
+        cars in the dataset
+        """
+
+    # print(x_test)
+    x_test.iat[0, 0] = hp
+    x_test.iat[0, 1] = seat
+    x_test.iat[0, 2] = top
+    x_test.iat[0, 3] = limit
+    x_test.iat[0, 4] = rwd
+    x_test.iat[0, 5] = year
+    x_test.iat[0, 6] = acc
+    x_test.iat[0, 7] = na
+    x_test.iat[0, 8] = tt
+    x_test.iat[0, 9] = ttt
+    x_test.iat[0, 10] = hyb
+    x_test.iat[0, 11] = speed
+    x_test.iat[0, 12] = weight
+    x_test.iat[0, 13] = hp2
+    A = x_test.to_numpy()
+    # print(A)
+    L = A.tolist()
+    # print(L)
+    N = x_test.columns.tolist()
+    
+    #print output
+    print('_________________')
+    print()
+    for i in range(len(L[0])): 
+        print (N[i], '  | ', L[0] [i])
+    result = mod.predict(x_test)
+    print('_________________')      #make pretty
+    print()
+    number = math.e**result[0]
+    f = '{:,.2f}' .format(number)     #print with $ format
+    print('This car is worth, $', f)
+    # print('$', math.e**result[0])
+
+def getinput(q, d):
+    """takes q and default d
+    """
+    result = input(q)
+    if len(result) < 1:
+        return d
+    else:
+        return result
+
+
+#asking function
+def prask(hp=667, seat=2, top=.26, limit=.31, rwd=.63, year=2019, acc=3.0, na=.29, 
+tt=.63, ttt=.03, hyb=.04, speed=202, weight=1581, hp2=477146):
+    """'prask' is the same as 'pr' except it asks for a user input on each explanatory variable.
+        Output: predicted price of the car with the specifications that the user has put input"""
+
+    print(' ** Hello auto enthusisiast! ** ')
+    print( ' For each prompt plese enter a value which is true to your cars specifications.')
+    print( ' If you wish to leave a question blank please press the "enter" key and prask will fill in a default value,  ')
+    print(' Thank you!')
+    time.sleep(1)
+    print()
+    print()
+
+
+    #ask user for each input
+    hp = getinput('| How many horespower does this car have? |  ', hp)
+    seat = getinput('| How many seats does this car have? |  ', seat)
+    top = getinput('| Is this car a convertable? (1 for yes, 0 for no) |  ', top)
+    limit = getinput('| Is this car limited production? (1 for yes, 0 for no) |  ', limit)
+    rwd = getinput('| Is this car rear wheel drive? (1 for yes, 0 for no) |  ', rwd)
+    year = getinput('| What year was this car made? |  ', year)
+    acc = getinput('| How fast does this car go from 0 - 60 mph?|  ', acc)
+    na = getinput('| Is this car naturaly aspirated? (1 for yes, 0 for no) |  ', na)
+    tt = getinput('| Is this car twin-turbo? (1 for yes, 0 for no) |  ', tt)
+    ttt = getinput('| Is this car tri-turbo? (1 for yes, 0 for no) |  ', ttt)
+    hyb = getinput('| Is this car hybrid? (1 for yes, 0 for no) |  ', hyb)
+    speed = getinput('| What is the top speed of this car in mph? |  ', speed)
+    weight = getinput('| How much does this car weight in Kg? |  ', weight)
+    hp2 = float(hp)**2
+
+    x_test.iat[0, 0] = hp
+    x_test.iat[0, 1] = seat
+    x_test.iat[0, 2] = top
+    x_test.iat[0, 3] = limit
+    x_test.iat[0, 4] = rwd
+    x_test.iat[0, 5] = year
+    x_test.iat[0, 6] = acc
+    x_test.iat[0, 7] = na
+    x_test.iat[0, 8] = tt
+    x_test.iat[0, 9] = ttt
+    x_test.iat[0, 10] = hyb
+    x_test.iat[0, 11] = speed
+    x_test.iat[0, 12] = weight
+    x_test.iat[0, 13] = hp2
+    A = x_test.to_numpy()
+    # print(A)
+    # # print(A)
+    L = A.tolist()
+    # print(L)
+    N = x_test.columns.tolist()
+
+    #print output
+    print('_________________')
+    print()
+    for i in range(len(L[0])): 
+        print (N[i], '  | ', L[0] [i])
+    result = mod.predict(x_test)
+    print('_________________')      #make pretty
+    print()
+    number = math.e**result[0]
+    f = '{:,.2f}' .format(number)     #print with $ format
+    print('This car is worth, $', f)
+    # print('$', math.e**result[0])
+{% endhighlight %}
+
