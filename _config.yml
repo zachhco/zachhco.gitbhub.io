@@ -91,6 +91,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  
- theme: minima
+ 
 
