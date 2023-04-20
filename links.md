@@ -2,8 +2,12 @@
 layout: page
 permalink: /links/
 ---
+<div class="image-container">
+  <img src="{{ site.baseurl }}/images/linkpic.png" style="width: 50%">
+</div>
 
-# <span style="color:#408C59">Here are some sites and tools I use everyday</span>
+# <span style="color:#408C59">Links</span>
+<span style="color:#408C59">Here are some sites and tools I use everyday</span>
 
 [KAGGLE](https://www.kaggle.com/learn) is an incredible, FREE online Data Science learning platform. They offer introductory courses such as Intro to Python and more advanced classes like machine learning. 
 

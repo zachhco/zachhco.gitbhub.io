@@ -2,8 +2,12 @@
 layout: page
 permalink: /about/
 ---
+<div class="image-container">
+  <img src="{{ site.baseurl }}/images/aboutpic.png" style="width: 50%">
+</div>
 
-# <span style="color:#408C59">I'm an undergraduate student studying Economics and Data Science. I love bikes, cars, tennis, skis, the outdoors, and anything that goes fast!</span>
+# <span style="color:#408C59">About Me</span>
+<span style="color:#408C59">I'm an undergraduate student studying Economics and Data Science. I love bikes, cars, tennis, skis, the outdoors, and anything that goes fast!</span>
 
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 50%; padding: 5px;">
