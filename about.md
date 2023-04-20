@@ -5,7 +5,7 @@ permalink: /about/
 <span style="color:#408C59"> *I'm an undergraduate student studying Economics and Data Science. I love bikes, cars, tennis, skis, the outdoors, and anything that goes fast!* 
 </span>
 
-<div style="display: flex;">
+<div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 50%; padding: 5px;">
     <img src="{{ site.baseurl }}/images/bike.png" style="width: 100%;">
   </div>
@@ -34,7 +34,7 @@ permalink: /about/
 </div>
 
 
-## <span style="color:purple">Contact</span>
+## <span style="color:#408C59">Contact</span>
 
 Contact me here:
 [zrocohen@gmail.com](mailto:email@domain.com)
