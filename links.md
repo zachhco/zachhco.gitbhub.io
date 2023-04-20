@@ -2,7 +2,7 @@
 layout: page
 permalink: /links/
 ---
-# <span style="color:#408C59">Here are some sites and tools I use everyday</span>
+## <span style="color:#408C59">Here are some sites and tools I use everyday</span>
 
 [KAGGLE](https://www.kaggle.com/learn) is an incredible, FREE online Data Science learning platform. They offer introductory courses such as Intro to Python and more advanced classes like machine learning. 
 
