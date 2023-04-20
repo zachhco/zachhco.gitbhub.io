@@ -6,13 +6,15 @@ permalink: /about/
 <span style="color:grey"> *I'm an undergraduate student studying Economics and Data Science. I love bikes, cars, tennis, skis, the outdoors, and anything that goes fast!* 
 </span>
 
+![_config.yml]({{ site.baseurl }}/images/bike.png){: width="100%"}
+
 
 <div class="row">
   <div class="column">
-    <img src="/images/bike.png" alt="Biking" style="width:100%">
+    ![_config.yml]({{ site.baseurl }}/images/bike.png){: width="100%"}
   </div>
   <div class="column">
-    <img src="/images/bike2.JPG" alt="bike2" style="width:100%">
+        ![_config.yml]({{ site.baseurl }}/images/bike2.JPG){: width="100%"}
   </div>
 </div>
 
