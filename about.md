@@ -28,7 +28,7 @@ permalink: /about/
     <img src="{{ site.baseurl }}/images/f1.jpeg" alt="f1" style="width:100%">
   </div>
   <div style="flex: 50%; padding: 5px;">
-    <img src="{{ site.baseurl }}/images/lewis.PNG" alt="lewis" style="width:100%">
+    <img src="{{ site.baseurl }}/images/lewis.png" alt="lewis" style="width:100%">
   </div>
 </div>
 </div>
