@@ -9,41 +9,36 @@ permalink: /about/
 ![_config.yml]({{ site.baseurl }}/images/bike.png){: width="100%"}
 
 
-<div class="row">
-  <div class="column">
-    ![_config.yml]({{ site.baseurl }}/images/bike.png){: width="100%"}
+<div style="display: flex;">
+  <div style="flex: 50%; padding: 5px;">
+    <img src="{{ site.baseurl }}/images/bike.png" style="width: 100%;">
   </div>
-  <div class="column">
-        ![_config.yml]({{ site.baseurl }}/images/bike2.JPG){: width="100%"}
+  <div style="flex: 50%; padding: 5px;">
+    <img src="{{ site.baseurl }}/images/bike2.JPG" style="width: 100%;">
   </div>
 </div>
 
-<div class="row">
-  <div class="column">
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="flex: 50%; padding: 5px;">
     <img src="/images/rose.jpg" alt="rose" style="width:100%">
   </div>
-  <div class="column">
+  <div style="flex: 50%; padding: 5px;">
     <img src="/images/pic.jpg" alt="pic" style="width:100%">
   </div>
-</div>
-
-<div class="row">
-  <div class="column">
+  <div style="flex: 50%; padding: 5px;">
     <img src="/images/kart.jpg" alt="kart1" style="width:100%">
   </div>
-  <div class="column">
+  <div style="flex: 50%; padding: 5px;">
     <img src="/images/kart2.jpg" alt="kart2" style="width:100%">
   </div>
-</div>
-
-<div class="row">
-  <div class="column">
+  <div style="flex: 50%; padding: 5px;">
     <img src="/images/f1.jpeg" alt="f1" style="width:100%">
   </div>
-  <div class="column">
+  <div style="flex: 50%; padding: 5px;">
     <img src="/images/lewis.PNG" alt="lewis" style="width:100%">
   </div>
 </div>
+
 
 ## <span style="color:purple">Contact</span>
 
