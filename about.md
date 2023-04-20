@@ -2,8 +2,7 @@
 layout: page
 permalink: /about/
 ---
-# <span style="color:purple">About</span>
-<span style="color:grey"> *I'm an undergraduate student studying Economics and Data Science. I love bikes, cars, tennis, skis, the outdoors, and anything that goes fast!* 
+<span style="color:#408C59"> *I'm an undergraduate student studying Economics and Data Science. I love bikes, cars, tennis, skis, the outdoors, and anything that goes fast!* 
 </span>
 
 <div style="display: flex;">
@@ -13,7 +12,6 @@ permalink: /about/
   <div style="flex: 50%; padding: 5px;">
     <img src="{{ site.baseurl }}/images/bike2.JPG" style="width: 100%;">
   </div>
-<div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 50%; padding: 5px;">
     <img src="{{ site.baseurl }}/images/rose.jpg" alt="rose" style="width:100%">
   </div>
