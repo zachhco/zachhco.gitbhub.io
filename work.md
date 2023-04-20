@@ -3,7 +3,7 @@ layout: page
 permalink: /work/
 ---
 <div class="image-container">
-  <img src="{{ site.baseurl }}/images/working.png" style="width: 300">
+  <img src="{{ site.baseurl }}/images/working.png" style="width: 50%">
 </div>
 
 # <span style="color:#408C59">Work</span> 
