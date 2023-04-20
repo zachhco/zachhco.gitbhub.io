@@ -31,7 +31,7 @@ permalink: /about/
     <img src="{{ site.baseurl }}/images/lewis.png" alt="lewis" style="width:100%">
   </div>
 </div>
-</div>
+
 
 
 ## <span style="color:#408C59">Contact</span>
