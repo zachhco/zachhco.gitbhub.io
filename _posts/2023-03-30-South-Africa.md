@@ -2,7 +2,7 @@
 layout: post
 title: South Africa Gallery
 ---
-<img title="South African Flag" alt="Alt text" src="/images/saflag.png" width="750" height="auto">
+![_config.yml]({{ site.baseurl }}/images/saflag.png){: width="750" height="auto"}
 
 ## <span style="color:purple">Info</span>
 
