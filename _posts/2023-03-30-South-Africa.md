@@ -5,7 +5,6 @@ title: South Africa Gallery
 <img title="South African Flag" alt="Alt text" src="/images/saflag.png" width="750" height="auto">
 
 ## <span style="color:purple">Info</span>
-heres some media and sort stories from my time in south africa
 
 ![_config.yml]({{ site.baseurl }}/images/sa_pic/sa1.jpg)
 ![_config.yml]({{ site.baseurl }}/images/sa_pic/sa2.jpg)

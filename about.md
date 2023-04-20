@@ -3,14 +3,9 @@ layout: page
 permalink: /about/
 ---
 # <span style="color:purple">About</span>
-<span style="color:grey"> *Here you can find some information about myself* 
+<span style="color:grey"> *I'm an undergraduate student studying Economics and Data Science. I love bikes, cars, tennis, skis, the outdoors, and anything that goes fast!* 
 </span>
 
-Im undergraduate student studying economics and data science. I'm creating this page so I can get some practice with web design. I'd also like to document some of my experinces while on study abroad.
-
-## <span style="color:purple">More Information</span>
-
-I love bikes, cars, tennis, skis, the outdoors, and anything that goes fast!
 
 <div class="row">
   <div class="column">
@@ -50,5 +45,6 @@ I love bikes, cars, tennis, skis, the outdoors, and anything that goes fast!
 
 ## <span style="color:purple">Contact</span>
 
+Contact me here:
 [zrocohen@gmail.com](mailto:email@domain.com)
 
