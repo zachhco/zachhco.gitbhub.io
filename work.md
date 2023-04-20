@@ -34,7 +34,7 @@ RESEARCH PAPER HERE
 <span style="color:#408C59">Abstract: </span>
 The research project, "Investigating Developmental Aid Effectiveness: A Study with Kolisi Foundation," aims to analyze the efficacy of developmental aid efforts and identify best practices to drive positive impact while mitigating unintended consequences. In partnership with the Kolisi Foundation, the project will address key framing questions related to aid purpose, goals, evaluation, utilization, misappropriation prevention, need determination, dependency relationships, political influence, stakeholders, and differences in administering aid. Through hands-on experience and high-level strategy development, the project aims to generate insights, contribute to academic discourse, and potentially serve as the foundation for the author's senior thesis.
 
-# Tabalau Analytics Dashboard (Manifest)
+# Tableau Analytics Dashboard (Manifest)
 LINK HERE
 
 <span style="color:#408C59">Description: </span>
