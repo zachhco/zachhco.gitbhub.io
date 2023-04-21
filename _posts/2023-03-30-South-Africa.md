@@ -4,8 +4,6 @@ title: South Africa Gallery
 ---
 ![_config.yml]({{ site.baseurl }}/images/saflag.png){: width="750" height="auto"}
 
-## <span style="color:purple">Info</span>
-
 ![_config.yml]({{ site.baseurl }}/images/sa_pic/sa1.jpg)
 ![_config.yml]({{ site.baseurl }}/images/sa_pic/sa2.jpg)
 ![_config.yml]({{ site.baseurl }}/images/sa_pic/sa3.jpeg)

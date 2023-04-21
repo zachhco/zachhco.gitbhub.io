@@ -24,8 +24,13 @@ permalink: /work/
 The research project, "Investigating Developmental Aid Effectiveness: A Study with Kolisi Foundation," aims to analyze the efficacy of developmental aid efforts and identify best practices to drive positive impact while mitigating unintended consequences. In partnership with the Kolisi Foundation, the project will address key framing questions related to aid purpose, goals, evaluation, utilization, misappropriation prevention, need determination, dependency relationships, political influence, stakeholders, and differences in administering aid. Through hands-on experience and high-level strategy development, the project aims to generate insights, contribute to academic discourse, and potentially serve as the foundation for the author's senior thesis. find the [RESEARCH PROPOSAL HERE]({{ site.baseurl }}/assets/Research Proposal for Kolisi Foundation ISP.pdf).
 
 # Car Price Determinants Random Forest Implementation (2023)
-<div class="image-container">
-    <img src="{{ site.baseurl }}/images/992.png" style="width: 65%">
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="flex: 50%; padding: 5px;">
+    <img src="{{ site.baseurl }}/images/992.png" style="width: 100%">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="{{ site.baseurl }}/images/carpricepred.png" style="width: 85%;">
+  </div>
 </div>
 
 <span style="color:#408C59">Description: </span>
