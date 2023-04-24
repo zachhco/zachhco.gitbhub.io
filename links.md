@@ -37,4 +37,5 @@ permalink: /links/
     <img src="{{ site.baseurl }}/images/spot.png" style="width: 75%">
 </div>
 Not sure why you would be interested in my music taste, but here's my [spotify](https://open.spotify.com/user/zroc1000?si=9d0f5467153a4228)
+              
 
