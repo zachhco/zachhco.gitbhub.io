@@ -26,6 +26,14 @@ permalink: /links/
 <br>
 <br>
 <div class="image-container">
+    <img src="{{ site.baseurl }}/images/monktype.png" style="width: 85%">
+</div>
+[MONKEYTYPE](https://monkeytype.com/) is another great online typing page with tons of customizable options.
+<br>
+<br>
+<br>
+<br>
+<div class="image-container">
     <img src="{{ site.baseurl }}/images/csbat.png" style="width: 85%">
 </div>
 [CODINGBAT](https://codingbat.com/python) has great FREE practice problems in Python and Java for all skill levels
