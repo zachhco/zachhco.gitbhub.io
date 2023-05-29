@@ -1,13 +1,10 @@
 ---
 layout: page
+title: Links
 permalink: /links/
 ---
-<div class="image-container">
-  <img src="{{ site.baseurl }}/images/linkpic.png" style="width: 50%">
-</div>
+<span style="color:#408C59">Some sites and tools I find useful</span>
 
-# <span style="color:#408C59">Links</span>
-<span style="color:#408C59">Here are some sites and tools I use everyday</span>
 
 <div class="image-container">
     <img src="{{ site.baseurl }}/images/kaggle.png" style="width: 75%">

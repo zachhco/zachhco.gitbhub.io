@@ -17,10 +17,18 @@ html {
   font-size: 100%;
 }
 
+@font-face {
+  font-family: 'Bungee Shade', cursive;
+  font-family: 'Londrina Outline', cursive;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Monserrat';
+}
+
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  background: #fff;
+  font: 18px/1.4 'Orbitron', Montserrat;
+  color: #333;
 }
 
 .container {
@@ -31,9 +39,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
+  font-family: 'Orbitron', Montserrat;
+  color: #408C59;
+  font-weight: bolder;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -71,7 +79,7 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: crosshair;
+	cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
@@ -192,17 +200,17 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #408C59; 
   cursor: crosshair;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
+  font-family: 'Bungee Shade';
+  font-weight: 400;
+  font-size: 36px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #408C59;
   font-size: 16px;
 
   @include mobile {
@@ -213,8 +221,8 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
+  font-family: 'Bungee Shade';
+  font-size: 20px;
 
   @include mobile {
     float: none;
@@ -225,9 +233,9 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: #408C59;
     text-align: right;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
 
     @include mobile {
