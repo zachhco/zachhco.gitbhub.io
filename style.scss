@@ -18,11 +18,23 @@ html {
 }
 
 @font-face {
-  font-family: 'Bungee Shade', cursive;
-  font-family: 'Londrina Outline', cursive;
-  font-family: 'Orbitron', sans-serif;
-  font-family: 'Press Start 2P', cursive;
-  font-family: 'Monserrat';
+  font-family: 'Bungee Shade';
+  src: url('https://fonts.gstatic.com/s/bungeeshade/v9/DtVkJxarWL0t2KdzK3oI_jks2njm.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Londrina Outline';
+  src: url('https://fonts.gstatic.com/s/londrinaoutline/v10/lltpGCA2nqT3B4zN8tWfK3CquLzKhZiGWorP.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('https://fonts.gstatic.com/s/orbitron/v10/yMJRMIlzdpvBhQQL_BZz2A.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('https://fonts.gstatic.com/s/pressstart2p/v10/e3t4euO8T-267oIAQAu6jDQyK0nS.ttf') format('truetype');
 }
 
 body {
