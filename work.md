@@ -12,6 +12,12 @@ permalink: /work/
 <span style="color:#408C59">Abstract</span>
 Funding is the mechanism by which an overseas organization or government attaches itself to a locally based NGO. This research examines the relationship between the funding procedures and the implementation outcomes of development projects, as understood by the locally based organization. This study considers various non-governmental organizations and their experience with funding sources. Funders vary from corporate funders, local and foreign governments, international organizations, and private donors. To explore the relationship, we have adopted a qualitative approach and draw on in-depth interviews with representatives from several South African NGOs. The aim of the study is to understand the NGOs’ perspective on funding procedures and how they believe they influence their ability to meet their programmatic goals. Shedding light on the experiences and perspectives of implementing NGOs will help us understand the ways in which values and norms underlying funding practice shape the developmental space. This study highlights the need for NGOs and funders to construct healthy and open relationships to maximize the positive impact of developmental aid funding.
 
+# Siphekela Isizwe Empowerment and Feeding Scheme - Website (2023)
+<div class="image-container">
+    <img src="{{ site.baseurl }}/images/snap.png" style="width: 65%">
+</div>
+During my time doing research in South Africa, I was fortunate enough to develop relationships with several amazing NGOs. One of them was Siphekela Isizwe Empowerment and Feeding Scheme. Run by Lungi, they provide nutrition, empowerment, and relief to seniors and children in western Cape townships. To give Lungi and Siphekela Isizwe Empowerment and Feeding Scheme more visibility, I created a website that provides an overview of their work and a means by which people can assist.  [siphekelaisizwe.com](http://siphekelaisizwe.com/)
+
 # Car Price Determinants Random Forest Implementation (2023)
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 50%; padding: 5px;">
