@@ -3,7 +3,7 @@ layout: page
 title: Links
 permalink: /links/
 ---
-<span style="color:#408C59">Some sites and tools I find useful</span>
+<span style="color:#8507df">Some sites and tools I find useful</span>
 
 
 <div class="image-container">

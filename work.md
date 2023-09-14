@@ -4,7 +4,7 @@ title: My Work
 permalink: /work/
 ---
 
-<span style="color:#408C59">Here are some things ive done, and some things im currently working on</span>
+<span style="color:#8507df">Here are some things ive done, and some things im currently working on</span>
 
 
 # How do you strategically plan to implement without implementing partners?” An Exploration of the Relationship Between Funding Procedures and Developmental Project Outcomes (2023)
