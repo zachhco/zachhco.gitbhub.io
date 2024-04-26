@@ -1,16 +1,16 @@
 ---
 layout: post
-title: South Africa Gallery
+title: South Africa Gallery 🇿🇦
 ---
-![_config.yml]({{ site.baseurl }}/images/saflag.png){: width="750" height="auto"}
+__Pictures from my time abroad in South Africa__
 
+![_config.yml]({{ site.baseurl }}/images/cape_town/capet-07.jpg)
 ![_config.yml]({{ site.baseurl }}/images/cape_town/capet-01.jpg)
 ![_config.yml]({{ site.baseurl }}/images/cape_town/capet-02.jpg)
 ![_config.yml]({{ site.baseurl }}/images/cape_town/capet-03.jpg)
 ![_config.yml]({{ site.baseurl }}/images/cape_town/capet-04.jpg)
 ![_config.yml]({{ site.baseurl }}/images/cape_town/capet-05.jpg)
 ![_config.yml]({{ site.baseurl }}/images/cape_town/capet-06.jpg)
-![_config.yml]({{ site.baseurl }}/images/cape_town/capet-07.jpg)
 ![_config.yml]({{ site.baseurl }}/images/cape_town/capet-08.jpg)
 ![_config.yml]({{ site.baseurl }}/images/cape_town/capet-09.jpg)
 ![_config.yml]({{ site.baseurl }}/images/cape_town/capet-10.jpg)
