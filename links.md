@@ -22,35 +22,35 @@ permalink: /links/
     <tbody>
         <tr>
             <td class="icon-cell">
-                Kaggle <img src="{{ site.baseurl }}/images/kagicon.png" alt="KAGGLE">
+                Kaggle <img src="/images/kagicon.png" alt="KAGGLE">
             </td>
             <td>an incredible, FREE online Data Science learning platform. They offer introductory courses such as Intro to Python and more advanced classes like machine learning.</td>
             <td><a href="https://www.kaggle.com/learn">KAGGLE</a></td>
         </tr>
         <tr>
             <td class="icon-cell">
-                Keybr <img src="{{ site.baseurl }}/images/cover.png" alt="KEYBR">
+                Keybr <img src="/images/cover.png" alt="KEYBR">
             </td>
             <td>an online touch typing practice page. I'm trying to teach myself to type faster and properly. Keybr is FREE and a fantastic way to practice. You can track my progress to see how much I suck at typing properly.</td>
             <td><a href="https://www.keybr.com/profile/p4b6ml1">MY PROFILE</a></td>
         </tr>
         <tr>
             <td class="icon-cell">
-                Monkeytype <img src="{{ site.baseurl }}/images/monkeytype.png" alt="Monkey">
+                Monkeytype <img src="/images/monkeytype.png" alt="Monkey">
             </td>
             <td>another great online typing page with tons of customizable options.</td>
             <td><a href="https://monkeytype.com/">MONKEYTYPE</a></td>
         </tr>
         <tr>
             <td class="icon-cell">
-                <img src="{{ site.baseurl }}/images/cb.png" alt="cb">
+                <img src="/images/cb.png" alt="cb">
             </td>
             <td>has great FREE practice problems in Python and Java for all skill levels.</td>
             <td><a href="https://codingbat.com/python">CODINGBAT</a></td>
         </tr>
         <tr>
             <td class="icon-cell">
-                <img src="{{ site.baseurl }}/images/spoticon.png" alt="Spot">
+                <img src="/images/spoticon.png" alt="Spot">
             </td>
             <td>Not sure why you would be interested in my music taste, but if you are here's a link</td>
             <td><a href="https://open.spotify.com/user/zroc1000?si=9d0f5467153a4228">SPOTIFY</a></td>
@@ -70,7 +70,7 @@ permalink: /links/
     <tbody>
         <tr>
             <td class="icon-cell">
-                <img src="{{ site.baseurl }}/images/soundcloudl.png" alt="KAGGLE">
+                <img src="/images/soundcloudl.png" alt="sound">
             </td>
             <td>Listen to some of my mixes here ...</td>
             <td><a href="https://soundcloud.com/zach-cohen-37098677">MY SOUNDCLOUD</a></td>
