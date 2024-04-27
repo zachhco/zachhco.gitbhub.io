@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<span style="color:#8507df">I'm a graduating senior at Pitzer College majoring in Economics and entering a career in Data Science. I have a passion for data-informed decision-making, bikes, cars, tennis, skis, the outdoors, and anything that goes fast!</span>
+<span style="color:#200079">I'm a graduating senior at Pitzer College majoring in Economics and entering a career in Data Science. I have a passion for data-informed decision-making, bikes, cars, tennis, skis, the outdoors, and anything that goes fast!</span>
 
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 50%; padding: 5px;">
@@ -21,7 +21,7 @@ permalink: /about/
 </div>
 
 
-## <span style="color:#8507df">Contact</span>
+## <span style="color:#200079">Contact</span>
 
 Contact me here:
 [zrocohen@gmail.com](mailto:email@domain.com)

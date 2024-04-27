@@ -4,7 +4,7 @@ title: My Work 💼
 permalink: /work/
 ---
 
-<span style="color:#8507df">Here are some things ive done, and some things im currently working on</span>
+<span style="color:#200079">Here are some things ive done, and some things im currently working on</span>
 
 # Harnessing Predictive Models to Enhance Road Safety: An Econometric Investigation into Risk Compensation & A Test of Machine Learning Model Efficacy
 <div class="image-container">

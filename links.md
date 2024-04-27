@@ -5,11 +5,6 @@ permalink: /links/
 ---
 **Some sites and tools I find useful**
 
-<head>
-<meta charset="UTF-8">
-<title>link Table </title>
-<link rel="stylesheet" href="style.css">
-</head>
 <body>
 <table>
     <thead>
@@ -60,11 +55,7 @@ permalink: /links/
 </body>
 <br>
 
-<head>
-<meta charset="UTF-8">
-<title>link Table </title>
-<link rel="stylesheet" href="style.css">
-</head>
+
 <body>
 <table>
     <tbody>

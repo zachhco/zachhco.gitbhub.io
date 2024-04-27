@@ -52,7 +52,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Orbitron', Montserrat;
-  color: #8507df;
+  color: #200079;
   font-weight: bolder;
 
   line-height: 1.1;
@@ -240,7 +240,7 @@ th {
 
 .site-name {
   margin: 0;
-  color: #8507df; 
+  color: #200079; 
   cursor: crosshair;
   font-family: 'Bungee Shade';
   font-weight: 400;
@@ -250,7 +250,7 @@ th {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: #8507df;
+  color: #200079;
   font-size: 16px;
 
   @include mobile {
@@ -273,7 +273,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #8507df;
+    color: #200079;
     text-align: right;
     font-weight: 400;
     letter-spacing: 1px;
